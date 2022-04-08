@@ -10,7 +10,7 @@ import UIKit
 class MealViewController: UIViewController {
     
     //user
-    var userImageVar: UIImage = UIImage(named: "userImage.jpg")!
+  
     var logoImageVar: UIImage = UIImage(named: "Logo.png")!
     var userNameVar: String = "Putri"
     
@@ -26,11 +26,7 @@ class MealViewController: UIViewController {
         
         //set userimage to circle
         
-        uiView.layer.cornerRadius = 17
-        uiView.layer.shadowColor = UIColor.gray.cgColor
-        uiView.layer.shadowOpacity = 0.5
-        uiView.layer.shadowOffset = .zero
-        uiView.layer.shadowRadius = 10
+    
         
         uiView.layer.cornerRadius = 17
         uiView.layer.shadowColor = UIColor.gray.cgColor

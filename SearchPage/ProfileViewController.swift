@@ -23,11 +23,7 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         
         //layout profileuiview
-        profileUIView.layer.cornerRadius = 17
-        profileUIView.layer.shadowColor = UIColor.gray.cgColor
-        profileUIView.layer.shadowOpacity = 0.35
-        profileUIView.layer.shadowOffset = .zero
-        profileUIView.layer.shadowRadius = 4
+  
         
         profileUIView.layer.cornerRadius = 17
         profileUIView.layer.shadowColor = UIColor.gray.cgColor
