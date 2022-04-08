@@ -12,7 +12,10 @@ class NotifViewController: UIViewController {
     @IBOutlet weak var reminderBtn: UIButton!
     @IBOutlet weak var achievementBtn: UIButton!
     @IBOutlet weak var announcementBtn: UIButton!
-
+    
+    @IBOutlet weak var circleView2: UIView!
+    @IBOutlet weak var circleView1: UIView!
+    @IBOutlet weak var circleView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,6 +37,15 @@ class NotifViewController: UIViewController {
         announcementBtn.layer.shadowOpacity = 0.6
         announcementBtn.layer.shadowOffset = .zero
         announcementBtn.layer.shadowRadius = 2
+        
+        
+        circleView.layer.cornerRadius = circleView.layer.bounds.width / 2
+        circleView.clipsToBounds = true
+        circleView1.layer.cornerRadius = circleView1.layer.bounds.width / 2
+        circleView1.clipsToBounds = true
+        circleView2.layer.cornerRadius = circleView2.layer.bounds.width / 2
+        circleView2.clipsToBounds = true
+
 
         // Do any additional setup after loading the view.
     }
