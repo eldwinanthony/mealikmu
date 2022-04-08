@@ -34,6 +34,13 @@ class MealViewController: UIViewController {
         uiView.layer.shadowOffset = .zero
         uiView.layer.shadowRadius = 10
         
+        let gradient = CAGradientLayer()
+
+        gradient.frame = uiView.bounds
+        gradient.colors = [UIColor.white.cgColor, UIColor.green.cgColor]
+
+        uiView.layer.insertSublayer(gradient, at: 0)
+        
         chosenUIView.layer.cornerRadius = 17
         chosenUIView.layer.shadowColor = UIColor.gray.cgColor
         chosenUIView.layer.shadowOpacity = 0.2

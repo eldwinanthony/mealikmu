@@ -17,6 +17,7 @@
 		5CB9235D27FC784600996390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB9235B27FC784600996390 /* LaunchScreen.storyboard */; };
 		5CB9236527FC855F00996390 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236427FC855F00996390 /* MealViewController.swift */; };
 		5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236827FC85D800996390 /* ProfileViewController.swift */; };
+		68D176B1280033AF009D2702 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D176B0280033AF009D2702 /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5CB9235E27FC784600996390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB9236427FC855F00996390 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		5CB9236827FC85D800996390 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		68D176B0280033AF009D2702 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				5C384F7527FF30FF00F39120 /* NotifViewController.swift */,
 				5CB3BC29280011B800BE88BD /* FrequencyViewController.swift */,
 				5CB9235627FC784500996390 /* Main.storyboard */,
+				68D176B0280033AF009D2702 /* Onboarding.storyboard */,
 				5CB9235927FC784600996390 /* Assets.xcassets */,
 				5CB9235B27FC784600996390 /* LaunchScreen.storyboard */,
 				5CB9235E27FC784600996390 /* Info.plist */,
@@ -140,6 +143,7 @@
 				5CB9235D27FC784600996390 /* LaunchScreen.storyboard in Resources */,
 				5CB9235A27FC784600996390 /* Assets.xcassets in Resources */,
 				5CB9235827FC784500996390 /* Main.storyboard in Resources */,
+				68D176B1280033AF009D2702 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
