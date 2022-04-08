@@ -17,6 +17,7 @@
 		5CB9235D27FC784600996390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB9235B27FC784600996390 /* LaunchScreen.storyboard */; };
 		5CB9236527FC855F00996390 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236427FC855F00996390 /* MealViewController.swift */; };
 		5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236827FC85D800996390 /* ProfileViewController.swift */; };
+		5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */; };
 		68D176B1280033AF009D2702 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D176B0280033AF009D2702 /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		5CB9235E27FC784600996390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB9236427FC855F00996390 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		5CB9236827FC85D800996390 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		68D176B0280033AF009D2702 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				5CB9235927FC784600996390 /* Assets.xcassets */,
 				5CB9235B27FC784600996390 /* LaunchScreen.storyboard */,
 				5CB9235E27FC784600996390 /* Info.plist */,
+				5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */,
 			);
 			path = SearchPage;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				5CB3BC2A280011B800BE88BD /* FrequencyViewController.swift in Sources */,
 				5CB9235527FC784500996390 /* SearchViewController.swift in Sources */,
 				5CB9236527FC855F00996390 /* MealViewController.swift in Sources */,
+				5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */,
 				5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */,
 				5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */,
 				5CB9235127FC784500996390 /* AppDelegate.swift in Sources */,
