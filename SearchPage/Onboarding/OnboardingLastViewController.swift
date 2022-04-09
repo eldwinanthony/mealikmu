@@ -1,13 +1,13 @@
 //
-//  OnboardingViewController.swift
+//  OnboardingLastViewController.swift
 //  SearchPage
 //
-//  Created by Eldwin Anthony on 08/04/22.
+//  Created by Eldwin Anthony on 09/04/22.
 //
 
 import UIKit
 
-class OnboardingViewController: UIViewController {
+class OnboardingLastViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
