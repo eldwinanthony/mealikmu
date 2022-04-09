@@ -21,6 +21,7 @@
 		5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B8228016CC40040D887 /* RootPageViewController.swift */; };
 		5CDF8B8528017C840040D887 /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B8428017C840040D887 /* FrequencyViewController.swift */; };
 		5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */; };
+		B5DD508E2801E9820043F5FE /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD508D2801E9820043F5FE /* TimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		5CDF8B8228016CC40040D887 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		5CDF8B8428017C840040D887 /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
 		5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B5DD508D2801E9820043F5FE /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */,
 				5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */,
 				5CDF8B8428017C840040D887 /* FrequencyViewController.swift */,
+				B5DD508D2801E9820043F5FE /* TimeViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB9235527FC784500996390 /* SearchViewController.swift in Sources */,
+				B5DD508E2801E9820043F5FE /* TimeViewController.swift in Sources */,
 				5CB9236527FC855F00996390 /* MealViewController.swift in Sources */,
 				5CDF8B8028015F330040D887 /* OnboardingLastViewController.swift in Sources */,
 				5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */,
