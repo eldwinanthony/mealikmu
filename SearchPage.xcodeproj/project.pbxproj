@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C384F7527FF30FF00F39120 /* NotifViewController.swift */; };
-		5CB3BC2A280011B800BE88BD /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3BC29280011B800BE88BD /* FrequencyViewController.swift */; };
 		5CB9235127FC784500996390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235027FC784500996390 /* AppDelegate.swift */; };
 		5CB9235327FC784500996390 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235227FC784500996390 /* SceneDelegate.swift */; };
 		5CB9235527FC784500996390 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235427FC784500996390 /* SearchViewController.swift */; };
@@ -17,12 +16,15 @@
 		5CB9235D27FC784600996390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB9235B27FC784600996390 /* LaunchScreen.storyboard */; };
 		5CB9236527FC855F00996390 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236427FC855F00996390 /* MealViewController.swift */; };
 		5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236827FC85D800996390 /* ProfileViewController.swift */; };
-		68D176B1280033AF009D2702 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D176B0280033AF009D2702 /* Onboarding.storyboard */; };
+		5CDF8B7B28015D370040D887 /* OnboardingPreparationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */; };
+		5CDF8B8028015F330040D887 /* OnboardingLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B7F28015F330040D887 /* OnboardingLastViewController.swift */; };
+		5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B8228016CC40040D887 /* RootPageViewController.swift */; };
+		5CDF8B8528017C840040D887 /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B8428017C840040D887 /* FrequencyViewController.swift */; };
+		5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C384F7527FF30FF00F39120 /* NotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifViewController.swift; sourceTree = "<group>"; };
-		5CB3BC29280011B800BE88BD /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
 		5CB9234D27FC784500996390 /* SearchPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB9235027FC784500996390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB9235227FC784500996390 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +35,11 @@
 		5CB9235E27FC784600996390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB9236427FC855F00996390 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		5CB9236827FC85D800996390 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		68D176B0280033AF009D2702 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPreparationViewController.swift; sourceTree = "<group>"; };
+		5CDF8B7F28015F330040D887 /* OnboardingLastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLastViewController.swift; sourceTree = "<group>"; };
+		5CDF8B8228016CC40040D887 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		5CDF8B8428017C840040D887 /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
+		5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +72,31 @@
 		5CB9234F27FC784500996390 /* SearchPage */ = {
 			isa = PBXGroup;
 			children = (
+				5CDF8B8128015F4F0040D887 /* Onboarding */,
 				5CB9235027FC784500996390 /* AppDelegate.swift */,
 				5CB9235227FC784500996390 /* SceneDelegate.swift */,
 				5CB9235427FC784500996390 /* SearchViewController.swift */,
 				5CB9236427FC855F00996390 /* MealViewController.swift */,
 				5CB9236827FC85D800996390 /* ProfileViewController.swift */,
 				5C384F7527FF30FF00F39120 /* NotifViewController.swift */,
-				5CB3BC29280011B800BE88BD /* FrequencyViewController.swift */,
+				5CDF8B8228016CC40040D887 /* RootPageViewController.swift */,
 				5CB9235627FC784500996390 /* Main.storyboard */,
-				68D176B0280033AF009D2702 /* Onboarding.storyboard */,
 				5CB9235927FC784600996390 /* Assets.xcassets */,
 				5CB9235B27FC784600996390 /* LaunchScreen.storyboard */,
 				5CB9235E27FC784600996390 /* Info.plist */,
 			);
 			path = SearchPage;
+			sourceTree = "<group>";
+		};
+		5CDF8B8128015F4F0040D887 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF8B7F28015F330040D887 /* OnboardingLastViewController.swift */,
+				5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */,
+				5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */,
+				5CDF8B8428017C840040D887 /* FrequencyViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +160,6 @@
 				5CB9235D27FC784600996390 /* LaunchScreen.storyboard in Resources */,
 				5CB9235A27FC784600996390 /* Assets.xcassets in Resources */,
 				5CB9235827FC784500996390 /* Main.storyboard in Resources */,
-				68D176B1280033AF009D2702 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,13 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB3BC2A280011B800BE88BD /* FrequencyViewController.swift in Sources */,
 				5CB9235527FC784500996390 /* SearchViewController.swift in Sources */,
 				5CB9236527FC855F00996390 /* MealViewController.swift in Sources */,
+				5CDF8B8028015F330040D887 /* OnboardingLastViewController.swift in Sources */,
+				5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */,
 				5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */,
+				5CDF8B8528017C840040D887 /* FrequencyViewController.swift in Sources */,
 				5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */,
 				5CB9235127FC784500996390 /* AppDelegate.swift in Sources */,
+				5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */,
 				5CB9235327FC784500996390 /* SceneDelegate.swift in Sources */,
+				5CDF8B7B28015D370040D887 /* OnboardingPreparationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
