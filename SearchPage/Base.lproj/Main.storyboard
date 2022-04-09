@@ -506,11 +506,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onboard1" translatesAutoresizingMaskIntoConstraints="NO" id="ace-HA-BhR">
-                                <rect key="frame" x="45" y="249" width="300" height="204"/>
+                                <rect key="frame" x="45" y="212" width="300" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9qH-n8-mfa">
-                                <rect key="frame" x="32" y="537" width="326" height="34"/>
+                                <rect key="frame" x="32" y="501" width="326" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -604,7 +604,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onboardlast" translatesAutoresizingMaskIntoConstraints="NO" id="zvC-e6-MH5">
-                                <rect key="frame" x="75" y="265" width="240" height="234"/>
+                                <rect key="frame" x="75" y="189" width="240" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
