@@ -9,6 +9,10 @@ import UIKit
 
 class OnboardingPreparationViewController: UIViewController {
 
+    @IBOutlet weak var skipButton: UIButton!
+    @IBOutlet weak var previousButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

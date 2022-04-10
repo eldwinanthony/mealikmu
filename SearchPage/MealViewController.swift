@@ -25,9 +25,6 @@ class MealViewController: UIViewController {
         super.viewDidLoad()
         
         //set userimage to circle
-        
-    
-        
         uiView.layer.cornerRadius = 17
         uiView.layer.shadowColor = UIColor.gray.cgColor
         uiView.layer.shadowOpacity = 0.5

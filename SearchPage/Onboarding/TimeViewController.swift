@@ -9,12 +9,9 @@ import UIKit
 
 class TimeViewController: UIViewController {
 
-    @IBOutlet weak var timePickerBreakfast: UIButton!
-    @IBOutlet weak var timeAmPmPickerBreakfast: UISegmentedControl!
-    @IBOutlet weak var timePickerLunch: UIButton!
-    @IBOutlet weak var timeAmPmPickerLunch: UISegmentedControl!
-    @IBOutlet weak var timePickerDinner: UIButton!
-    @IBOutlet weak var timeAmPmPickerDinner: UISegmentedControl!
+    @IBOutlet weak var skipButton: UIButton!
+    @IBOutlet weak var previousButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -10,6 +10,7 @@ import UIKit
 class OnboardingViewController: UIViewController {
 
     @IBOutlet weak var nameOnboard: UITextField!
+    @IBOutlet weak var nextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

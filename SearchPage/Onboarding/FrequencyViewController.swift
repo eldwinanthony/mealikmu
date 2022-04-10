@@ -8,15 +8,13 @@
 import UIKit
 
 class FrequencyViewController: UIViewController {
-
-
-
     
     @IBOutlet weak var frekuensiPicker: UIPickerView!
-    
+    @IBOutlet weak var skipButton: UIButton!
+    @IBOutlet weak var previousButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
 
-
-    let frequencydata = ["1 Time","2 Times", "3 Times", "4 Times", "5 Times", "6 Times", "7 Times", "8 Times"]
+    let frequencydata = ["1 Time","2 Times", "3 Times", "4 Times", "5 Times"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
