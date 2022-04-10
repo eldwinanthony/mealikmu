@@ -21,6 +21,9 @@
 		5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B8228016CC40040D887 /* RootPageViewController.swift */; };
 		5CDF8B8528017C840040D887 /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B8428017C840040D887 /* FrequencyViewController.swift */; };
 		5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */; };
+		B5B5CCA92802CB2F00809886 /* SearchKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5CCA82802CB2F00809886 /* SearchKeywordViewController.swift */; };
+		B5B5CCAB2802CE0900809886 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5CCAA2802CE0900809886 /* FoodDetailsViewController.swift */; };
+		B5B5CCAD2802D10300809886 /* MealPersonalizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5CCAC2802D10300809886 /* MealPersonalizedViewController.swift */; };
 		B5DD508E2801E9820043F5FE /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD508D2801E9820043F5FE /* TimeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		5CDF8B8228016CC40040D887 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		5CDF8B8428017C840040D887 /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
 		5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B5B5CCA82802CB2F00809886 /* SearchKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchKeywordViewController.swift; sourceTree = "<group>"; };
+		B5B5CCAA2802CE0900809886 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		B5B5CCAC2802D10300809886 /* MealPersonalizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPersonalizedViewController.swift; sourceTree = "<group>"; };
 		B5DD508D2801E9820043F5FE /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,10 +84,13 @@
 				5CB9235027FC784500996390 /* AppDelegate.swift */,
 				5CB9235227FC784500996390 /* SceneDelegate.swift */,
 				5CB9235427FC784500996390 /* SearchViewController.swift */,
+				B5B5CCA82802CB2F00809886 /* SearchKeywordViewController.swift */,
+				B5B5CCAC2802D10300809886 /* MealPersonalizedViewController.swift */,
 				5CB9236427FC855F00996390 /* MealViewController.swift */,
 				5CB9236827FC85D800996390 /* ProfileViewController.swift */,
 				5C384F7527FF30FF00F39120 /* NotifViewController.swift */,
 				5CDF8B8228016CC40040D887 /* RootPageViewController.swift */,
+				B5B5CCAA2802CE0900809886 /* FoodDetailsViewController.swift */,
 				5CB9235627FC784500996390 /* Main.storyboard */,
 				5CB9235927FC784600996390 /* Assets.xcassets */,
 				5CB9235B27FC784600996390 /* LaunchScreen.storyboard */,
@@ -173,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B5CCAD2802D10300809886 /* MealPersonalizedViewController.swift in Sources */,
 				5CB9235527FC784500996390 /* SearchViewController.swift in Sources */,
 				B5DD508E2801E9820043F5FE /* TimeViewController.swift in Sources */,
 				5CB9236527FC855F00996390 /* MealViewController.swift in Sources */,
@@ -184,7 +194,9 @@
 				5CB9235127FC784500996390 /* AppDelegate.swift in Sources */,
 				5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */,
 				5CB9235327FC784500996390 /* SceneDelegate.swift in Sources */,
+				B5B5CCAB2802CE0900809886 /* FoodDetailsViewController.swift in Sources */,
 				5CDF8B7B28015D370040D887 /* OnboardingPreparationViewController.swift in Sources */,
+				B5B5CCA92802CB2F00809886 /* SearchKeywordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
