@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import UIKit
 
 struct Meal{
-    var imageName: String?
+    var mealImage: UIImage?
     var mealName: String?
     var cookingTime: Int
     var description: String?
