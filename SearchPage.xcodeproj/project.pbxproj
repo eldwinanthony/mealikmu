@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0567146F2804194800CFE6F6 /* MealDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567146E2804194800CFE6F6 /* MealDataModel.swift */; };
+		0567147128041E2300CFE6F6 /* MealDataFeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567147028041E2300CFE6F6 /* MealDataFeeder.swift */; };
 		5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C384F7527FF30FF00F39120 /* NotifViewController.swift */; };
 		5CB9235127FC784500996390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235027FC784500996390 /* AppDelegate.swift */; };
 		5CB9235327FC784500996390 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235227FC784500996390 /* SceneDelegate.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0567146E2804194800CFE6F6 /* MealDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDataModel.swift; sourceTree = "<group>"; };
+		0567147028041E2300CFE6F6 /* MealDataFeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDataFeeder.swift; sourceTree = "<group>"; };
 		5C384F7527FF30FF00F39120 /* NotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifViewController.swift; sourceTree = "<group>"; };
 		5CB9234D27FC784500996390 /* SearchPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB9235027FC784500996390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				5CB9236827FC85D800996390 /* ProfileViewController.swift */,
 				5C384F7527FF30FF00F39120 /* NotifViewController.swift */,
 				5CDF8B8228016CC40040D887 /* RootPageViewController.swift */,
+				0567146E2804194800CFE6F6 /* MealDataModel.swift */,
+				0567147028041E2300CFE6F6 /* MealDataFeeder.swift */,
 				5CB9235627FC784500996390 /* Main.storyboard */,
 				5CB9235927FC784600996390 /* Assets.xcassets */,
 				5CB9235B27FC784600996390 /* LaunchScreen.storyboard */,
@@ -170,12 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0567146F2804194800CFE6F6 /* MealDataModel.swift in Sources */,
 				5CB9235527FC784500996390 /* SearchViewController.swift in Sources */,
 				5CB9236527FC855F00996390 /* MealViewController.swift in Sources */,
 				5CDF8B8028015F330040D887 /* OnboardingLastViewController.swift in Sources */,
 				5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */,
 				5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */,
 				5CDF8B8528017C840040D887 /* FrequencyViewController.swift in Sources */,
+				0567147128041E2300CFE6F6 /* MealDataFeeder.swift in Sources */,
 				5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */,
 				5CB9235127FC784500996390 /* AppDelegate.swift in Sources */,
 				5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */,
