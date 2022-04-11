@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 struct Meal{
     var imageName: String?
     var mealName: String?
