@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+
 var foodDetails: [Meal] = [
     Meal(mealImage: UIImage(named: "Spicy Tempeh Bowl.png"), mealName: "Spicy Tempeh Bowl", cookingTime: 15, description: "Spicy Tempeh Bowl merupakan makanan yang kaya akan protein dan rasanya yang enak", ingredients: ["Spicy Tempeh Bowl:", "1/2 sdt Fine Sea Salt, 500gr tempe, 1 sdt Paprika Bubuk, 1/2 sdt Rosemary, 2 Sdm Minyak Zaitun", "Salad:", "100gr selada keriting, 100gr Iceberg Lettuce, 50gr Kol Merah, 50gr Wortel, dan 50gr Homemade Spicy Mayo"], equipments: ["Mangkok, Air Fryer, dan Piring"], recipes: ["Siapkan tempe yang telah dipotong memanjang, iceberg lettuce dipotong kasar, kol merah dan wortel diiris tipis", "Siapkan mangkok dan campurkan bahan tempe, fine sea salt, paprika bubuk, rosemary, dan minyak zaitun; aduk merata", "Masak tempe dengan air fryer 180*c selama 10 menit", "Keluarkan setelah matang", "Siapkan piring, dan campurkan selada keriting, iceberg lettuce, kol merah, wortel, tempe, dan spicy mayo", "Sajikan!"]),
     

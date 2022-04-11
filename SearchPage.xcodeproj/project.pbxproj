@@ -17,6 +17,7 @@
 		5CB9235D27FC784600996390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB9235B27FC784600996390 /* LaunchScreen.storyboard */; };
 		5CB9236527FC855F00996390 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236427FC855F00996390 /* MealViewController.swift */; };
 		5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9236827FC85D800996390 /* ProfileViewController.swift */; };
+		5CC2F97C280477D800A4C4AB /* AutomatedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2F97B280477D800A4C4AB /* AutomatedPageViewController.swift */; };
 		5CDF8B7B28015D370040D887 /* OnboardingPreparationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */; };
 		5CDF8B8028015F330040D887 /* OnboardingLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B7F28015F330040D887 /* OnboardingLastViewController.swift */; };
 		5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF8B8228016CC40040D887 /* RootPageViewController.swift */; };
@@ -38,6 +39,7 @@
 		5CB9235E27FC784600996390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB9236427FC855F00996390 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		5CB9236827FC85D800996390 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5CC2F97B280477D800A4C4AB /* AutomatedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedPageViewController.swift; sourceTree = "<group>"; };
 		5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPreparationViewController.swift; sourceTree = "<group>"; };
 		5CDF8B7F28015F330040D887 /* OnboardingLastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLastViewController.swift; sourceTree = "<group>"; };
 		5CDF8B8228016CC40040D887 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		5CB9234F27FC784500996390 /* SearchPage */ = {
 			isa = PBXGroup;
 			children = (
+				5CC2F97A280476EF00A4C4AB /* Automated */,
 				5CDF8B8128015F4F0040D887 /* Onboarding */,
 				5CB9235027FC784500996390 /* AppDelegate.swift */,
 				5CB9235227FC784500996390 /* SceneDelegate.swift */,
@@ -94,11 +97,19 @@
 			path = SearchPage;
 			sourceTree = "<group>";
 		};
+		5CC2F97A280476EF00A4C4AB /* Automated */ = {
+			isa = PBXGroup;
+			children = (
+				5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */,
+				5CC2F97B280477D800A4C4AB /* AutomatedPageViewController.swift */,
+			);
+			path = Automated;
+			sourceTree = "<group>";
+		};
 		5CDF8B8128015F4F0040D887 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				5CDF8B7F28015F330040D887 /* OnboardingLastViewController.swift */,
-				5CDF8B7A28015D370040D887 /* OnboardingPreparationViewController.swift */,
 				5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */,
 				5CDF8B8428017C840040D887 /* FrequencyViewController.swift */,
 			);
@@ -178,6 +189,7 @@
 			files = (
 				0567146F2804194800CFE6F6 /* MealDataModel.swift in Sources */,
 				5CB9235527FC784500996390 /* SearchViewController.swift in Sources */,
+				5CC2F97C280477D800A4C4AB /* AutomatedPageViewController.swift in Sources */,
 				5CB9236527FC855F00996390 /* MealViewController.swift in Sources */,
 				5CDF8B8028015F330040D887 /* OnboardingLastViewController.swift in Sources */,
 				5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */,

@@ -15,31 +15,28 @@ class MealViewController: UIViewController {
     var userNameVar: String = "Putri"
     
     //Outlets
-    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var Banne: UIImageView!
+    @IBOutlet weak var circleViewAutomated: UIView!
+    @IBOutlet weak var circleViewPersonalized: UIView!
     @IBOutlet weak var logoImage: UIImageView!
     @IBOutlet weak var personalizedButton: UIButton!
     @IBOutlet weak var automatedButton: UIButton!
-    @IBOutlet weak var uiView: UIView!
     @IBOutlet weak var chosenUIView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //set userimage to circle
+        circleViewPersonalized.layer.cornerRadius = circleViewPersonalized.layer.bounds.width / 2
+        circleViewPersonalized.clipsToBounds = true
         
+        circleViewAutomated.layer.cornerRadius = circleViewAutomated.layer.bounds.width / 2
+        circleViewAutomated.clipsToBounds = true
     
         
-        uiView.layer.cornerRadius = 17
-        uiView.layer.shadowColor = UIColor.gray.cgColor
-        uiView.layer.shadowOpacity = 0.5
-        uiView.layer.shadowOffset = .zero
-        uiView.layer.shadowRadius = 10
-        
-        let gradient = CAGradientLayer()
+        Banne.layer.shadowColor = UIColor.gray.cgColor
+        Banne.layer.shadowOpacity = 0.2
+        Banne.layer.shadowOffset = .zero
+        Banne.layer.shadowRadius = 10
 
-        gradient.frame = uiView.bounds
-        gradient.colors = [UIColor.white.cgColor, UIColor.green.cgColor]
-
-        uiView.layer.insertSublayer(gradient, at: 0)
         
         chosenUIView.layer.cornerRadius = 17
         chosenUIView.layer.shadowColor = UIColor.gray.cgColor
@@ -55,8 +52,6 @@ class MealViewController: UIViewController {
         // Set logo
         logoImage.image = logoImageVar
         
-        //Set the username
-        userName.text = "Hi, \(userNameVar)!"
         
         // Do any additional setup after loading the view.
     }
