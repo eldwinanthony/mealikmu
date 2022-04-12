@@ -12,7 +12,7 @@ class OnboardingPreparationViewController: UIViewController {
     
     @IBOutlet weak var timePicker: UIPickerView!
     var timechosen = ""
-    var timechosenvalue=0
+    var timechosenvalue = 0
     
     
     let timedata = ["1 Minute","2 Minutes", "3 Minutes", "4 Minutes", "5 Minutes", "6 Minutes", "7 Minutes", "8 Minutes", "9 Minutes", "10 Minutes",
@@ -22,6 +22,8 @@ class OnboardingPreparationViewController: UIViewController {
                     "41 Minute","42 Minutes", "43 Minutes", "44 Minutes", "45 Minutes", "46 Minutes", "47 Minutes", "48 Minutes", "49 Minutes", "50 Minutes",
                     "51 Minute","52 Minutes", "53 Minutes", "54 Minutes", "55 Minutes", "56 Minutes", "57 Minutes", "58 Minutes", "59 Minutes", "60 Minutes"]
     @IBOutlet weak var testlabel: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +37,10 @@ class OnboardingPreparationViewController: UIViewController {
     
     
     @IBAction func generatePressed(_ sender: Any) {
-        
+        let controller = storyboard?.instantiateViewController(withIdentifier: "Automated") as! AutomatedPageViewController
+        controller.timechosenValue = timechosenvalue + 0
+        controller.modalPresentationStyle = .popover
+        present(controller, animated: true)
     }
     
 }
