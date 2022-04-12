@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0567146F2804194800CFE6F6 /* MealDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567146E2804194800CFE6F6 /* MealDataModel.swift */; };
 		5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C384F7527FF30FF00F39120 /* NotifViewController.swift */; };
+		5C83162828061B6700081B7F /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83162628061B6700081B7F /* SearchTableViewCell.swift */; };
+		5C83162928061B6700081B7F /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C83162728061B6700081B7F /* SearchTableViewCell.xib */; };
 		5CB9235127FC784500996390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235027FC784500996390 /* AppDelegate.swift */; };
 		5CB9235327FC784500996390 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235227FC784500996390 /* SceneDelegate.swift */; };
 		5CB9235527FC784500996390 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9235427FC784500996390 /* SearchViewController.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		0567146E2804194800CFE6F6 /* MealDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDataModel.swift; sourceTree = "<group>"; };
 		5C384F7527FF30FF00F39120 /* NotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifViewController.swift; sourceTree = "<group>"; };
+		5C83162628061B6700081B7F /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		5C83162728061B6700081B7F /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		5CB9234D27FC784500996390 /* SearchPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB9235027FC784500996390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB9235227FC784500996390 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C8316252806181100081B7F /* SearchMeal */ = {
+			isa = PBXGroup;
+			children = (
+				5CB9235427FC784500996390 /* SearchViewController.swift */,
+				5C83162628061B6700081B7F /* SearchTableViewCell.swift */,
+				5C83162728061B6700081B7F /* SearchTableViewCell.xib */,
+			);
+			path = SearchMeal;
+			sourceTree = "<group>";
+		};
 		5CB9234427FC784500996390 = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +96,11 @@
 		5CB9234F27FC784500996390 /* SearchPage */ = {
 			isa = PBXGroup;
 			children = (
+				5C8316252806181100081B7F /* SearchMeal */,
 				5CC2F97A280476EF00A4C4AB /* Automated */,
 				5CDF8B8128015F4F0040D887 /* Onboarding */,
 				5CB9235027FC784500996390 /* AppDelegate.swift */,
 				5CB9235227FC784500996390 /* SceneDelegate.swift */,
-				5CB9235427FC784500996390 /* SearchViewController.swift */,
 				5CB9236427FC855F00996390 /* MealViewController.swift */,
 				5CB9236827FC85D800996390 /* ProfileViewController.swift */,
 				5C384F7527FF30FF00F39120 /* NotifViewController.swift */,
@@ -184,6 +198,7 @@
 				5CB9235A27FC784600996390 /* Assets.xcassets in Resources */,
 				5CE0453128057E4B0007DC01 /* AutomatedTableViewCell.xib in Resources */,
 				5CB9235827FC784500996390 /* Main.storyboard in Resources */,
+				5C83162928061B6700081B7F /* SearchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +222,7 @@
 				5CB9235127FC784500996390 /* AppDelegate.swift in Sources */,
 				5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */,
 				5CB9235327FC784500996390 /* SceneDelegate.swift in Sources */,
+				5C83162828061B6700081B7F /* SearchTableViewCell.swift in Sources */,
 				5CE0453028057E4B0007DC01 /* AutomatedTableViewCell.swift in Sources */,
 				5CDF8B7B28015D370040D887 /* OnboardingPreparationViewController.swift in Sources */,
 			);
