@@ -9,16 +9,12 @@ import UIKit
 
 class MealViewController: UIViewController {
     
-    //user
-  
-    var logoImageVar: UIImage = UIImage(named: "Logo.png")!
-    var userNameVar: String = "Putri"
+    var userNameVar = "Guest"
     
     //Outlets
     @IBOutlet weak var Banne: UIImageView!
     @IBOutlet weak var circleViewAutomated: UIView!
     @IBOutlet weak var circleViewPersonalized: UIView!
-    @IBOutlet weak var logoImage: UIImageView!
     @IBOutlet weak var personalizedButton: UIButton!
     @IBOutlet weak var automatedButton: UIButton!
     @IBOutlet weak var chosenUIView: UIView!
@@ -46,11 +42,7 @@ class MealViewController: UIViewController {
         
         personalizedButton.layer.cornerRadius = 17
         automatedButton.layer.cornerRadius = 17
-        
-    
-        
-        // Set logo
-        logoImage.image = logoImageVar
+
         
         
         // Do any additional setup after loading the view.
