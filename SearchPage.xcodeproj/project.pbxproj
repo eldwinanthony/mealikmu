@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053F1C892806B2C200A0955D /* TimeToPrepaceUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1C882806B2C200A0955D /* TimeToPrepaceUIViewController.swift */; };
+		053F1C8D2806B46600A0955D /* MealFreqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1C8C2806B46600A0955D /* MealFreqViewController.swift */; };
+		053F1C8F2806B82500A0955D /* MealPlanDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1C8E2806B82500A0955D /* MealPlanDayViewController.swift */; };
+		053F1C912806B9EA00A0955D /* GeneratedMealPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053F1C902806B9EA00A0955D /* GeneratedMealPlanViewController.swift */; };
 		0567146F2804194800CFE6F6 /* MealDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0567146E2804194800CFE6F6 /* MealDataModel.swift */; };
 		5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C384F7527FF30FF00F39120 /* NotifViewController.swift */; };
 		5C83162828061B6700081B7F /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83162628061B6700081B7F /* SearchTableViewCell.swift */; };
@@ -31,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		053F1C882806B2C200A0955D /* TimeToPrepaceUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeToPrepaceUIViewController.swift; sourceTree = "<group>"; };
+		053F1C8C2806B46600A0955D /* MealFreqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFreqViewController.swift; sourceTree = "<group>"; };
+		053F1C8E2806B82500A0955D /* MealPlanDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanDayViewController.swift; sourceTree = "<group>"; };
+		053F1C902806B9EA00A0955D /* GeneratedMealPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedMealPlanViewController.swift; sourceTree = "<group>"; };
 		0567146E2804194800CFE6F6 /* MealDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDataModel.swift; sourceTree = "<group>"; };
 		5C384F7527FF30FF00F39120 /* NotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifViewController.swift; sourceTree = "<group>"; };
 		5C83162628061B6700081B7F /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -67,6 +75,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053F1C872806B28400A0955D /* Personalize */ = {
+			isa = PBXGroup;
+			children = (
+				053F1C882806B2C200A0955D /* TimeToPrepaceUIViewController.swift */,
+				053F1C8C2806B46600A0955D /* MealFreqViewController.swift */,
+				053F1C8E2806B82500A0955D /* MealPlanDayViewController.swift */,
+				053F1C902806B9EA00A0955D /* GeneratedMealPlanViewController.swift */,
+			);
+			path = Personalize;
+			sourceTree = "<group>";
+		};
 		5C8316252806181100081B7F /* SearchMeal */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +115,7 @@
 		5CB9234F27FC784500996390 /* SearchPage */ = {
 			isa = PBXGroup;
 			children = (
+				053F1C872806B28400A0955D /* Personalize */,
 				5C8316252806181100081B7F /* SearchMeal */,
 				5CC2F97A280476EF00A4C4AB /* Automated */,
 				5CDF8B8128015F4F0040D887 /* Onboarding */,
@@ -209,12 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053F1C912806B9EA00A0955D /* GeneratedMealPlanViewController.swift in Sources */,
 				0567146F2804194800CFE6F6 /* MealDataModel.swift in Sources */,
 				5CB9235527FC784500996390 /* SearchViewController.swift in Sources */,
 				5CC2F97C280477D800A4C4AB /* AutomatedPageViewController.swift in Sources */,
 				5CB9236527FC855F00996390 /* MealViewController.swift in Sources */,
 				5CDF8B8028015F330040D887 /* OnboardingLastViewController.swift in Sources */,
 				5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */,
+				053F1C8F2806B82500A0955D /* MealPlanDayViewController.swift in Sources */,
 				5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */,
 				5CDF8B8528017C840040D887 /* FrequencyViewController.swift in Sources */,
 				B540C42D280421ED008558E9 /* FoodDetails.swift in Sources */,
@@ -222,7 +244,9 @@
 				5CB9235127FC784500996390 /* AppDelegate.swift in Sources */,
 				5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */,
 				5CB9235327FC784500996390 /* SceneDelegate.swift in Sources */,
+				053F1C892806B2C200A0955D /* TimeToPrepaceUIViewController.swift in Sources */,
 				5C83162828061B6700081B7F /* SearchTableViewCell.swift in Sources */,
+				053F1C8D2806B46600A0955D /* MealFreqViewController.swift in Sources */,
 				5CE0453028057E4B0007DC01 /* AutomatedTableViewCell.swift in Sources */,
 				5CDF8B7B28015D370040D887 /* OnboardingPreparationViewController.swift in Sources */,
 			);
