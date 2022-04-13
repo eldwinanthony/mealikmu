@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Av7-yl-X8Y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Av7-yl-X8Y">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -494,7 +494,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ayam Kungpao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mso-nt-mrZ">
-                                <rect key="frame" x="162" y="232" width="84" height="15"/>
+                                <rect key="frame" x="161" y="232" width="84" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
@@ -508,15 +508,8 @@
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ayam Bakar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txa-0D-ty0">
-                                <rect key="frame" x="275" y="232" width="71" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ayam yang sudah dimarinasi lalu dibakar" translatesAutoresizingMaskIntoConstraints="NO" id="rVc-ym-9XP">
-                                <rect key="frame" x="270" y="241" width="86" height="68.666666666666671"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ayam yang sudah dimarinasi" translatesAutoresizingMaskIntoConstraints="NO" id="rVc-ym-9XP">
+                                <rect key="frame" x="270" y="241" width="104" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -697,6 +690,18 @@
                                 <color key="textColor" red="0.41568624970000001" green="0.61176472900000001" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gv2-nQ-z7G">
+                                <rect key="frame" x="262" y="224" width="162" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ayam Bakar">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="12"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="kgD-4J-4pz" kind="show" id="HX5-Ii-zf9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0DG-da-pzs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1039,6 +1044,7 @@
                             <constraint firstItem="5l5-yI-7co" firstAttribute="width" secondItem="Fh1-sY-G6i" secondAttribute="width" id="xPh-xy-VBl"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9Af-9P-ZF7"/>
                     <size key="freeformSize" width="390" height="1342"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oCh-Bj-BG2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1276,7 +1282,9 @@
                     <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle" catalog="system" id="acJ-Q0-4WW"/>
                     <connections>
                         <outlet property="Banne" destination="sAq-YX-KV9" id="aQC-ih-qoR"/>
+                        <outlet property="nameTextField" destination="kdL-TQ-uEb" id="2FF-ZF-Qfp"/>
                         <outlet property="nameprofileLabel" destination="kg0-U1-u4m" id="Ux7-K7-5Pi"/>
+                        <outlet property="preptimeTextField" destination="aDr-nk-oMR" id="a0w-zp-j6p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JD0-Yz-xcl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
