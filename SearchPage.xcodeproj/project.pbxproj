@@ -32,6 +32,7 @@
 		5CE0453128057E4B0007DC01 /* AutomatedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE0452F28057E4B0007DC01 /* AutomatedTableViewCell.xib */; };
 		5CFC9C4628003F9D00C16F22 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */; };
 		B540C42D280421ED008558E9 /* FoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540C42C280421ED008558E9 /* FoodDetails.swift */; };
+		B5955C822806CB7800B73188 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5955C812806CB7800B73188 /* FoodDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		5CE0452F28057E4B0007DC01 /* AutomatedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutomatedTableViewCell.xib; sourceTree = "<group>"; };
 		5CFC9C4528003F9D00C16F22 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		B540C42C280421ED008558E9 /* FoodDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetails.swift; sourceTree = "<group>"; };
+		B5955C812806CB7800B73188 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				5CB9236427FC855F00996390 /* MealViewController.swift */,
 				5CB9236827FC85D800996390 /* ProfileViewController.swift */,
 				5C384F7527FF30FF00F39120 /* NotifViewController.swift */,
+				B5955C812806CB7800B73188 /* FoodDetailsViewController.swift */,
 				5CDF8B8228016CC40040D887 /* RootPageViewController.swift */,
 				0567146E2804194800CFE6F6 /* MealDataModel.swift */,
 				B540C42C280421ED008558E9 /* FoodDetails.swift */,
@@ -240,6 +243,7 @@
 				5CB9236927FC85D800996390 /* ProfileViewController.swift in Sources */,
 				5CDF8B8528017C840040D887 /* FrequencyViewController.swift in Sources */,
 				B540C42D280421ED008558E9 /* FoodDetails.swift in Sources */,
+				B5955C822806CB7800B73188 /* FoodDetailsViewController.swift in Sources */,
 				5C384F7627FF30FF00F39120 /* NotifViewController.swift in Sources */,
 				5CB9235127FC784500996390 /* AppDelegate.swift in Sources */,
 				5CDF8B8328016CC40040D887 /* RootPageViewController.swift in Sources */,
