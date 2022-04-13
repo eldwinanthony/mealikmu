@@ -39,6 +39,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="mzL-LI-LPK"/>
                     <connections>
+                        <outlet property="searchBar" destination="heg-5P-tze" id="wUE-Aa-fro"/>
                         <outlet property="searchtableView" destination="fsE-sM-FIr" id="IFv-p3-UPM"/>
                     </connections>
                 </viewController>
