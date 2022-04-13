@@ -19,12 +19,14 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         
         //layout profileuiview
+      //  var backgroundColor = UIColor.gray.cgColor
+        
         
         Banne.layer.shadowColor = UIColor.gray.cgColor
         Banne.layer.shadowOpacity = 0.2
         Banne.layer.shadowOffset = .zero
         Banne.layer.shadowRadius = 10
-        
+     
         
         nameprofileLabel.text = "Hi, \(mvController.userNameVar)!"
         
